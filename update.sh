@@ -17,4 +17,4 @@ cp "$SRC/proxy_tool.py" .
 
 git add -A
 git commit -m "proxy update $(date -u +%Y-%m-%d) — $(wc -l < alive.txt) alive" || echo "nothing to commit"
-git push origin main
+git push origin master
